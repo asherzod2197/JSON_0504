@@ -1,0 +1,91 @@
+# import json
+
+# kitob = {"sarlavha": "Algoritmlar", "muallif": "Knuth", "yil": 1968, "bor": True}
+
+# json_res = json.dumps(kitob, indent=4, ensure_ascii=False)
+# print(json_res)
+
+
+
+# import json
+
+# self = '{"ism": "Dilnoza", "yosh": 27, "manzil": {"shahar": "Samarqand", "ko\'cha": "Registon"}}'
+
+# json_res = json.loads(self)
+# print(json_res)
+
+# print(type(json_res))
+# print(json_res['manzil']['shahar'])
+
+
+
+# import json
+
+# students = [
+#     {"ism": "Ali", "yosh": 22, "baho": 57},
+#     {"ism": "Aziz", "yosh": 23, "baho": 84},
+#     {"ism": "Bobur", "yosh": 24, "baho": 73},
+#     {"ism": "Sardor", "yosh": 25, "baho": 92},
+#     {"ism": "Olim", "yosh": 26, "baho": 81}
+# ]
+
+# with open("students.json", "w", encoding="utf-8") as fayl:
+#     json.dump(students, fayl, indent=4, ensure_ascii=False)
+
+
+# with open("students.json", "r", encoding="utf-8") as fayl:
+#     top_students = [
+#         student for student in json.load(fayl) if student["baho"] >= 80
+#     ]
+
+# print(top_students)
+# print(type(top_students))
+
+
+
+# import json
+
+# json_str = '{"mahsulot": "qalam", "narx": 2000}'
+# to_py = json.loads(json_str)
+# print(type(to_py))
+
+# miqdor = to_py.get("miqdor", "Nomalum")
+# print(miqdor)
+
+# kategoriya = to_py.get("kategoriya", "Nomalum")
+# print(kategoriya)
+
+
+
+# import json
+# json_str = '''
+# {
+#   "users": [
+#     {"id": 1, "ism": "Akbar", "faol": true},
+#     {"id": 2, "ism": "Barno", "faol": false},
+#     {"id": 3, "ism": "Camila", "faol": true},
+#     {"id": 4, "ism": "Davron", "faol": false},
+#     {"id": 5, "ism": "Ezgulik", "faol": true}
+#   ]
+# }     '''
+
+# res = [user.get("ism") for user in json.loads(json_str).get("users") if user["faol"]]
+# print(res)
+
+
+
+# import json 
+
+# user = {"ism": input("ism: "), 
+#         "yosh": input("yosh:"),
+#         "shahar": input("shahar: ") 
+#         }
+
+# with open("user.json", "w", encoding="utf-8") as fayl:
+#     json.dump(user, fayl, indent=4, ensure_ascii=False)
+
+
+
+import json
+
+
