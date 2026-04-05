@@ -1,0 +1,27 @@
+[
+    {
+        "ism": "Ali",
+        "yosh": 22,
+        "baho": 57
+    },
+    {
+        "ism": "Aziz",
+        "yosh": 23,
+        "baho": 84
+    },
+    {
+        "ism": "Bobur",
+        "yosh": 24,
+        "baho": 73
+    },
+    {
+        "ism": "Sardor",
+        "yosh": 25,
+        "baho": 92
+    },
+    {
+        "ism": "Olim",
+        "yosh": 26,
+        "baho": 81
+    }
+]
