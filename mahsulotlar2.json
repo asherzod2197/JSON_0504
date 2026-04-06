@@ -1,0 +1,27 @@
+[
+    {
+        "nomi": "qalam",
+        "narx": 2000,
+        "miqdor": 100
+    },
+    {
+        "nomi": "daftar",
+        "narx": 5000,
+        "miqdor": 200
+    },
+    {
+        "nomi": "ruchka",
+        "narx": 3000,
+        "miqdor": 150
+    },
+    {
+        "nomi": "o'yinqaroq",
+        "narx": 15000,
+        "miqdor": 50
+    },
+    {
+        "nomi": "kompyuter",
+        "narx": 500000,
+        "miqdor": 10
+    }
+]
