@@ -114,3 +114,28 @@
 #     print(f"{student['ism']}ning o'rtacha bahosi: {average:.2f}")
 
 
+import json
+
+class Mahsulot:
+    def __init__(self, nomi, narx, miqdor):
+        self.nomi = nomi
+        self.narx = narx
+        self.miqdor = miqdor
+    
+    def dict(self):
+        return {"nomi": self.nomi, "narx": self.narx, "miqdor": self.miqdor}
+
+m1 = Mahsulot("qalam", 2000, 100)
+m2 = Mahsulot("daftar", 5000, 200)
+m3 = Mahsulot("ruchka", 3000, 150)
+m4 = Mahsulot("o'yinqaroq", 15000, 50)
+m5 = Mahsulot("kompyuter", 500000, 10)
+
+mahsulotlar = [m1.dict(), m2.dict(), m3.dict(), m4.dict(), m5.dict()]
+
+with open("mahsulotlar2.json", "w", encoding="utf-8") as file:
+    json.dump(mahsulotlar, file, indent=4, ensure_ascii=False)
+
+with open("mahsulotlar2.json", "r", encoding="utf-8") as file:
+    copy = [mahsulot for mahsulot in json.load(file)]
+    print(copy)
