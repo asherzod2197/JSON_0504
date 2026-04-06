@@ -1,27 +1,2 @@
 [
-    {
-        "id": 1,
-        "nom": "qalam",
-        "narx": 2000
-    },
-    {
-        "id": 2,
-        "nom": "daftar",
-        "narx": 5000
-    },
-    {
-        "id": 3,
-        "nom": "ruchka",
-        "narx": 3000
-    },
-    {
-        "id": 4,
-        "nom": "o'yinqaroq",
-        "narx": 15000
-    },
-    {
-        "id": 5,
-        "nom": "kompyuter",
-        "narx": 500000
-    }
-]
+    
