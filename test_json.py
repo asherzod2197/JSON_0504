@@ -88,4 +88,16 @@
 
 import json
 
+mahsulotlar = [
+    {"id": 1, "nom": "qalam", "narx": 2000},
+    {"id": 2, "nom": "daftar", "narx": 5000},
+    {"id": 3, "nom": "ruchka", "narx": 3000},
+    {"id": 4, "nom": "o'yinqaroq", "narx": 15000},
+    {"id": 5, "nom": "kompyuter", "narx": 500000}
+]
 
+with open("mahsulotlar.json", "w", encoding="utf-8") as file:
+    json.dump(mahsulotlar, file, indent=4, ensure_ascii=False)
+
+with open("mahsulotlar.json", "r", encoding="utf-8") as file:
+    print(sorted(json.load(file), key=lambda x: x["narx"], reverse=True)[:3])
