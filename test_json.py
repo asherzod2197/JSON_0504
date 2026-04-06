@@ -104,3 +104,13 @@
 
 
 
+# import json
+
+# with open("info_std.json", "r", encoding="utf-8") as file:
+#     students = json.load(file)
+
+# for student in students["talabalar"]:
+#     average = sum(student["baholar"].values()) / len(student["baholar"])
+#     print(f"{student['ism']}ning o'rtacha bahosi: {average:.2f}")
+
+
