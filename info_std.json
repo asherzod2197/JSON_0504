@@ -1,0 +1,7 @@
+{
+  "talabalar": [
+    {"ism": "Ali", "baholar": {"matematika": 85, "fizika": 90, "ingliz": 78}},
+    {"ism": "Vali", "baholar": {"matematika": 72, "fizika": 68, "ingliz": 91}},
+    {"ism": "Guli", "baholar": {"matematika": 95, "fizika": 88, "ingliz": 84}}
+  ]
+}
